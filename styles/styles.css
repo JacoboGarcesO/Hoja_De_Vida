@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+*{
+  scroll-behavior: smooth;
+}
+.container-fluid{
+  padding: 0;
+}
+.imgHeader{
+  margin-top: 60px;
+}
+.fotos1{
+  margin: 6px;
+}
+.col-carro{
+  margin-left: 50px ;
+}
+.FotoPerfil{
+  margin-right: 50px;
+}
+
+.nav{
+  background-image:url("../img/fondo-pantalla.jpg");
+  background-repeat: no-repeat;
+}
+.letra{
+  font-family: 'Gabriela', serif;
+  font-size: xx-large;
+}
+.letra2{
+  font-family: 'Gabriela', serif;
+  font-size: large;
+  font-weight: bold;
+}
+.textFooter{
+  display: inline-block;
+  margin:0;
+}
+.iconos{
+  display: inline-block;
+  margin:0;
+}
+.Habilidades{
+  padding:20px 80px;
+}
+
+#footer_contacto{
+  background-image:url("../img/fondo-pantalla.jpg");
+  background-repeat: no-repeat;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  padding:15px 15px;
+}
+#text_footer{
+  display:flex;
+  align-items: center;
+}
+
+@media (max-width:767px){
+  #footer_contacto{
+    display:block;
+  }
+  .iconos span{
+    display:block;
+  }
+  .iconos{
+    margin-top:15px;
+  }
+  .iconos .fotos1{
+    margin:0 2px;
+  }
+  .switch{
+    margin: 10px;
+  }
+  .letra2{
+    font-size: large;
+  }
+  #NavBar{
+    padding-top: 10px;
+  }
+  .imgEmpresa{
+    width: 260px;
+    padding-left: 20px;
+  }
+  .imgSofka{
+    width: 260px;
+    padding-left: 30px;
+  }
+  .imgIndex{
+    height: 250px;
+  }
+  .FotoPerfil{
+    margin: 0;
+  }
+  .col-carro{
+    margin-left: 30px ;
+    padding: 0;
+  }
+  .Habilidades{
+    padding:0;
+  }
+}
